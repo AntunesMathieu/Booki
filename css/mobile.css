@@ -1,0 +1,251 @@
+@media (max-width: 768px)
+{
+
+/*-----------------PARTIE HEADER-----------------------*/
+
+  nav
+  {
+    flex-direction: column;
+  }
+  #logo
+  {
+    margin: auto;
+  }
+  ul
+  {
+    padding: 0;
+  }
+  .navigation
+  {
+    width: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 4px solid rgb(242, 242, 242);
+  }
+  .navigation:hover
+  {
+    border-bottom: 4px solid #0065FC;
+    color: #0065FC;
+  }
+  .navigation a:hover
+  {
+    border-top: none;
+  }
+  .navigation a
+  {
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+/*--------------------PARTIE GRAND TITRE / ESPACE RECHERCHE / FILTRES---------------------*/
+
+
+    #grand-titre
+    {
+      margin: 0%;
+      padding-left: 15px;
+    }
+
+    h1
+    {
+      width: 95%;
+      font-size: 155%;
+    }
+
+    form
+    {
+      text-decoration: none;
+    }
+
+    .search
+    {
+      padding-left: 50px;
+    }
+
+    #espace_recherche form button i
+    {
+      display: flex;
+    }
+
+    #espace_recherche form button
+    {
+      padding: 15px;
+      margin-left: -15px;
+      border-radius: 15px;
+    }
+
+    #espace_recherche form button span
+    {
+      display: none;
+    }
+
+    #espace_recherche
+    {
+      display: flex;
+      margin-left: 13px;
+    }
+
+    .logomap
+    {
+      padding: 14px;
+    }
+
+    .mot-filtres
+    {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    #filtres
+    {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 0;
+      margin-left: 13px;
+    }
+
+    .bouton-filtres
+    {
+      margin-top: 10px;
+      padding-right: 18px;
+    }
+
+    .information
+    {
+      margin-top: 30px;
+    }
+
+
+
+
+/*---------------------PARTIE HEBERGEMENTS-----------------------*/
+
+
+    #hebergements
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #hebergements_marseille
+    {
+        display: flex;
+        flex-direction: column;
+        background: none;
+    }
+
+    #hebergements_marseille a
+    {
+      width: 100%;
+      margin-bottom: 135px;
+      margin-left: -5px;
+    }
+
+    #hebergements_marseille a p
+    {
+      margin-top: 6px;
+    }
+
+    #hebergements_marseille p
+    {
+      margin-top: 15px;
+    }
+
+    #plus_populaire
+    {
+      border-radius: 10px;
+    }
+
+    .hotel_populaires h3
+    {
+      width: 98%;
+    }
+
+
+/*----------------PARTIE ACTIVITE---------------*/
+
+
+    #activites
+    {
+      margin-top: 0;
+    }
+
+    .trio
+    {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0%;
+    }
+
+    .grande_images
+    {
+      max-width: none;
+    }
+
+    .duo
+    {
+      width: 100%;
+    }
+
+    .images_activites
+    {
+      height: 500px;
+    }
+    
+    .petite_images figure 
+    {
+      height: 200px;
+    }
+
+    .petite_images img
+    {
+      height: 150px;
+    }
+
+    .grande_images img
+    {
+      height: 150px;
+    }
+
+    #activites_marseille a
+    {
+      margin-bottom: 5%;
+      height: 200px;
+    }
+
+    #activites_marseille h3
+    {
+      margin-left: 5px;
+    }
+
+    .grande_images figure
+    {
+      height: 200px;
+    }
+   
+    .moyenne_images img
+    {
+      height: 150px;
+    }
+
+    .moyenne_images figure 
+    {
+      height: 200px;
+    }
+
+    .normal_images img
+    {
+      height: 150px;
+    }
+
+    .normal_images figure 
+    {
+      height: 200px;
+    }
+    
+}

@@ -1,0 +1,40 @@
+@media (max-width: 992px)
+{
+    #hebergements
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #hebergements_marseille
+    {
+        width: 96%;
+    }
+
+    #plus_populaire
+    {
+        width: 96%;
+        margin-top: 5%;
+    }
+
+    #activites_marseille
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trio
+    {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    footer nav
+    {
+        width: 80%;
+    }
+
+}
